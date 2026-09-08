@@ -1,3 +1,5 @@
+document.querySelector('#kan-sugimi-photo')?.setAttribute('src', window.WASEDA_MESHI_KAN_PHOTO || '');
+
 const menuButton = document.querySelector('.menu-button');
 const nav = document.querySelector('nav');
 
