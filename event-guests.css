@@ -1,0 +1,25 @@
+.event-guests {
+  margin: 0 0 30px;
+  padding: 20px 0 0;
+  border-top: 1px solid #76706a;
+}
+
+.event-guests > small {
+  display: block;
+  margin-bottom: 15px;
+  color: #d7a92f;
+  font: 10px "DM Mono", monospace;
+  letter-spacing: .08em;
+}
+
+.guest-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+.guest-card { min-height: 92px; padding: 13px; border: 1px solid #76706a; background: rgba(247, 240, 232, .04); }
+.guest-card span { display: block; color: #d7a92f; font: 10px "DM Mono", monospace; }
+.guest-card strong { display: block; margin-top: 14px; font-size: 12px; line-height: 1.5; }
+.guest-card.pending strong { color: #bfb7b0; font-weight: 500; }
+
+@media (max-width: 640px) {
+  .guest-list { grid-template-columns: 1fr; }
+  .guest-card { min-height: 66px; display: flex; align-items: center; justify-content: space-between; }
+  .guest-card strong { margin: 0; }
+}
