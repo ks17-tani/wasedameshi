@@ -1,0 +1,7 @@
+.atmosphere .future-tile { min-height: 230px; padding: 28px 24px; display: flex; flex-direction: column; justify-content: space-between; border: 1px dashed var(--ink); background: rgba(247, 240, 232, .2); }
+.future-tile span, .voice-placeholder span { font: 11px "DM Mono", monospace; letter-spacing: .08em; }
+.future-tile strong { font-size: 23px; line-height: 1.45; }
+.future-tile small { font-size: 12px; line-height: 1.7; }
+.voice-list .voice-placeholder { min-height: 145px; padding: 30px 12%; display: flex; align-items: center; border-bottom: 1px solid var(--ink); }
+.voice-placeholder p { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.8; }
+@media (max-width: 760px) { .atmosphere .future-tile { min-height: 180px; } .voice-list .voice-placeholder { min-height: 125px; padding: 25px 12%; } }
