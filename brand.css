@@ -1,0 +1,24 @@
+:root {
+  --ink: #4b001a;
+  --paper: #f7f0e8;
+  --orange: #8d0034;
+  --yellow: #d7a92f;
+  --blue: #eadbd5;
+  --line: rgba(75, 0, 26, 0.22);
+}
+
+body { background: var(--paper); }
+.hero-visual, .next { background: #8d0034; }
+.hero-visual { background: linear-gradient(145deg, #63001f, #a5003e); }
+.sun-disc, .hero-sticker, .quote-tile { background: #d7a92f; }
+.atmosphere { background: #eadbd5; }
+.button-dark { box-shadow: 4px 4px 0 #8d0034; }
+.button-light { box-shadow: 4px 4px 0 #d7a92f; }
+.event-card { background: #4b001a; }
+.event-card h2 em, .event-top, .event-details i, .event-doodle span { color: #d7a92f; }
+.logo span, h1 em, h2 em, .scribble, .join-options b { color: #8d0034; }
+footer { background: #4b001a; }
+
+.hero-visual img, .photo-card img, .atmosphere img {
+  filter: saturate(.62) sepia(.12) contrast(1.05);
+}
