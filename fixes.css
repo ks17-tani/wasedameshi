@@ -1,0 +1,17 @@
+.join-options a { color: var(--ink); }
+
+@media (max-width: 760px) {
+  nav.is-open {
+    display: flex;
+    position: absolute;
+    top: 67px;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    padding: 22px 7vw;
+    background: var(--paper);
+    border-bottom: 1px solid var(--ink);
+    flex-direction: column;
+    gap: 16px;
+  }
+}
